@@ -1,0 +1,17 @@
+{
+    "name": "struktal/struktal-composer-reader",
+    "description": "PHP library to read information from the project's composer.json file",
+    "keywords": [
+        "router"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload":{
+        "psr-4": {
+            "struktal\\ComposerReader\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.2.0"
+    }
+}
